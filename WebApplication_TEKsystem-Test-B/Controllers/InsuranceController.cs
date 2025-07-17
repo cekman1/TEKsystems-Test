@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
+using TEKsystem_Test_COSTS.CostManagementBackend;
 using TEKsystem_Test_DATABASES.Customers;
 using TEKsystem_Test_MODELS.Model;
-using TEKsystem_Test_COSTS.CostManagementBackend;
+using ThreadPilot_DataModels;
 
 
 namespace WebApplication_TEKsystem_Test_B.Controllers
@@ -11,64 +13,68 @@ namespace WebApplication_TEKsystem_Test_B.Controllers
     public class InsuranceController : ControllerBase
     {
         private readonly IHttpClientFactory _httpClientFactory;
+        private readonly FeatureToggles _featureToggles;
 
-        public InsuranceController(IHttpClientFactory httpClientFactory)
+        public InsuranceController(IHttpClientFactory httpClientFactory, IOptions<FeatureToggles> featureToggles)
         {
             _httpClientFactory = httpClientFactory;
+            _featureToggles = featureToggles.Value;
         }
 
         [HttpGet("{personalNumber}")]
         public async Task<IActionResult> GetInsurances(string personalNumber)
         {
-            var person = FakeCustomerDatabase.GetByPersonalNumber(personalNumber);
 
-            if (person == null)
-                return NotFound("Person not found.");
-
-            var response = new InsuranceResponse
+            if (_featureToggles.EnableFeaturePersonsLookup)
             {
-                PersonalNumber = personalNumber,
-                Insurances = new List<InsuranceItem>(),
-                TotalMonthlyCost = 0
-            };
+                // Kör ny funktionalitet
+                var person = FakeCustomerDatabase.GetByPersonalNumber(personalNumber);
 
-            foreach (var insurance in person.Insurances)
-            {
-                var item = new InsuranceItem
+                if (person == null)
+                    return NotFound("Person not found.");
+
+                var response = new InsuranceResponse
                 {
-                    Type = insurance,
-                    MonthlyCost = CostManagement.GetMonthlyCost(insurance)
+                    PersonalNumber = personalNumber,
+                    Insurances = new List<InsuranceItem>(),
+                    TotalMonthlyCost = 0
                 };
 
-                if (insurance == "Car")
+                foreach (var insurance in person.Insurances)
                 {
-                    var client = _httpClientFactory.CreateClient();
-                    var vehicleApiUrl = $"https://localhost:7077/api/Vehicle/{person.VehicleRegistrationNumber}";
+                    var item = new InsuranceItem
+                    {
+                        Type = insurance,
+                        MonthlyCost = CostManagement.GetMonthlyCost(insurance)
+                    };
 
-                    try
+                    if (insurance == "Car")
                     {
-                        var vehicle = await client.GetFromJsonAsync<Vehicle>(vehicleApiUrl);
-                        item.Vehicle = vehicle;
+                        var client = _httpClientFactory.CreateClient();
+                        var vehicleApiUrl = $"https://localhost:7077/api/Vehicle/{person.VehicleRegistrationNumber}";
+
+                        try
+                        {
+                            var vehicle = await client.GetFromJsonAsync<Vehicle>(vehicleApiUrl);
+                            item.Vehicle = vehicle;
+                        }
+                        catch
+                        {
+                            item.Vehicle = null;
+                        }
                     }
-                    catch
-                    {
-                        item.Vehicle = null;
-                    }
+
+                    response.Insurances.Add(item);
+                    response.TotalMonthlyCost += item.MonthlyCost;
                 }
 
-                response.Insurances.Add(item);
-                response.TotalMonthlyCost += item.MonthlyCost;
+                return Ok(response);
             }
-
-            return Ok(response);
+            else
+            {
+                // Kör gammal funktionalitet
+                return StatusCode(501, "Den här funktionen är inte tillgänglig ännu.");
+            }
         }
-
-        //private decimal GetMonthlyCost(string insuranceType) => insuranceType switch
-        //{
-        //    "Pet" => 10,
-        //    "Health" => 20,
-        //    "Car" => 30,
-        //    _ => 0
-        //};
     }
 }

@@ -84,6 +84,13 @@ Systemet är uppdelat i flera återanvändbara komponenter för att möjliggöra
    Projektet `ConsoleApp_Tester` i debug mode.
    Programmet kör utvalda tester och visar svar från API:erna i terminalens output-fönster. Testet är sedan klart.
 
+### Slå av och på funktionaliteten i API:erna (feature Toggling)
+ - i appsettings.json finns under "FeatureToggles" möjligheten att slå av och på web appens funktioner via true eller false
+  
+  t ex => {
+    "EnableFeatureVehiclesLookup": true
+  }
+
 ---
 
 ## 🧪 Testning

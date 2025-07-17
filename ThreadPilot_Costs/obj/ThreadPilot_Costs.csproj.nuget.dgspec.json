@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\ThreadPilot_Costs\\ThreadPilot_Costs.csproj": {}
+    "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ThreadPilot_Costs\\ThreadPilot_Costs.csproj": {}
   },
   "projects": {
-    "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\ThreadPilot_Costs\\ThreadPilot_Costs.csproj": {
+    "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ThreadPilot_Costs\\ThreadPilot_Costs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\ThreadPilot_Costs\\ThreadPilot_Costs.csproj",
+        "projectUniqueName": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ThreadPilot_Costs\\ThreadPilot_Costs.csproj",
         "projectName": "ThreadPilot_Costs",
-        "projectPath": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\ThreadPilot_Costs\\ThreadPilot_Costs.csproj",
+        "projectPath": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ThreadPilot_Costs\\ThreadPilot_Costs.csproj",
         "packagesPath": "C:\\Users\\CARLEKMAN\\.nuget\\packages\\",
-        "outputPath": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\ThreadPilot_Costs\\obj\\",
+        "outputPath": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ThreadPilot_Costs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

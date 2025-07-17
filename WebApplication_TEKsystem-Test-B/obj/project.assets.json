@@ -504,11 +504,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test-B\\WebApplication_TEKsystem-Test-B.csproj",
+      "projectUniqueName": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\WebApplication_TEKsystem-Test-B\\WebApplication_TEKsystem-Test-B.csproj",
       "projectName": "WebApplication_TEKsystem-Test-B",
-      "projectPath": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test-B\\WebApplication_TEKsystem-Test-B.csproj",
+      "projectPath": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\WebApplication_TEKsystem-Test-B\\WebApplication_TEKsystem-Test-B.csproj",
       "packagesPath": "C:\\Users\\CARLEKMAN\\.nuget\\packages\\",
-      "outputPath": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test-B\\obj\\",
+      "outputPath": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\WebApplication_TEKsystem-Test-B\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -530,14 +530,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\ThreadPilot_Costs\\ThreadPilot_Costs.csproj": {
-              "projectPath": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\ThreadPilot_Costs\\ThreadPilot_Costs.csproj"
+            "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ThreadPilot_Costs\\ThreadPilot_Costs.csproj": {
+              "projectPath": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ThreadPilot_Costs\\ThreadPilot_Costs.csproj"
             },
-            "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\ThreadPilot_Customers_Database\\ThreadPilot_Customers_Database.csproj": {
-              "projectPath": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\ThreadPilot_Customers_Database\\ThreadPilot_Customers_Database.csproj"
+            "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ThreadPilot_Customers_Database\\ThreadPilot_Customers_Database.csproj": {
+              "projectPath": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ThreadPilot_Customers_Database\\ThreadPilot_Customers_Database.csproj"
             },
-            "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\ThreadPilot_DataModels\\ThreadPilot_DataModels.csproj": {
-              "projectPath": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\ThreadPilot_DataModels\\ThreadPilot_DataModels.csproj"
+            "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ThreadPilot_DataModels\\ThreadPilot_DataModels.csproj": {
+              "projectPath": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ThreadPilot_DataModels\\ThreadPilot_DataModels.csproj"
             }
           }
         }
