@@ -1,0 +1,282 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\README.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:README.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BA06366-6E96-4685-BB0D-847450C5DEBB}|WebApplication_TEKsystem-Test-B\\WebApplication_TEKsystem-Test-B.csproj|d:\\root\\calle\\dropbox\\dropbox\\2. ce\\1. ce-repos\\99. teksystems-test\\webapplication_teksystem-test\\webapplication_teksystem-test-b\\webapplication_teksystem-test-b.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{7BA06366-6E96-4685-BB0D-847450C5DEBB}|WebApplication_TEKsystem-Test-B\\WebApplication_TEKsystem-Test-B.csproj|solutionrelative:webapplication_teksystem-test-b\\webapplication_teksystem-test-b.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B6620A9-665E-497C-95DA-30A818E698D6}|WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test.csproj|d:\\root\\calle\\dropbox\\dropbox\\2. ce\\1. ce-repos\\99. teksystems-test\\webapplication_teksystem-test\\webapplication_teksystem-test\\webapplication_teksystem-test.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{9B6620A9-665E-497C-95DA-30A818E698D6}|WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test.csproj|solutionrelative:webapplication_teksystem-test\\webapplication_teksystem-test.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{977DE69F-E468-440A-805E-47C21A75A858}|ThreadPilot_Databases\\ThreadPilot_Vehicles_Databases.csproj|d:\\root\\calle\\dropbox\\dropbox\\2. ce\\1. ce-repos\\99. teksystems-test\\webapplication_teksystem-test\\threadpilot_databases\\threadpilot_vehicles_databases.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{977DE69F-E468-440A-805E-47C21A75A858}|ThreadPilot_Databases\\ThreadPilot_Vehicles_Databases.csproj|solutionrelative:threadpilot_databases\\threadpilot_vehicles_databases.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFBAA223-2980-4421-A730-C205BB8C4193}|ThreadPilot_DataModels\\ThreadPilot_DataModels.csproj|d:\\root\\calle\\dropbox\\dropbox\\2. ce\\1. ce-repos\\99. teksystems-test\\webapplication_teksystem-test\\threadpilot_datamodels\\threadpilot_datamodels.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{EFBAA223-2980-4421-A730-C205BB8C4193}|ThreadPilot_DataModels\\ThreadPilot_DataModels.csproj|solutionrelative:threadpilot_datamodels\\threadpilot_datamodels.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CAE2453-A540-44AC-B742-7B48D47F9D70}|ThreadPilot_Customers_Database\\ThreadPilot_Customers_Database.csproj|d:\\root\\calle\\dropbox\\dropbox\\2. ce\\1. ce-repos\\99. teksystems-test\\webapplication_teksystem-test\\threadpilot_customers_database\\threadpilot_customers_database.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{9CAE2453-A540-44AC-B742-7B48D47F9D70}|ThreadPilot_Customers_Database\\ThreadPilot_Customers_Database.csproj|solutionrelative:threadpilot_customers_database\\threadpilot_customers_database.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDB434C-852D-4ADA-AA0F-DF14E055A531}|ThreadPilot_Costs\\ThreadPilot_Costs.csproj|d:\\root\\calle\\dropbox\\dropbox\\2. ce\\1. ce-repos\\99. teksystems-test\\webapplication_teksystem-test\\threadpilot_costs\\threadpilot_costs.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{2CDB434C-852D-4ADA-AA0F-DF14E055A531}|ThreadPilot_Costs\\ThreadPilot_Costs.csproj|solutionrelative:threadpilot_costs\\threadpilot_costs.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34E7B02F-3772-4054-A9A7-E5E69839FF64}|ConsoleApp-Test-API\\ConsoleApp-Test-API.csproj|d:\\root\\calle\\dropbox\\dropbox\\2. ce\\1. ce-repos\\99. teksystems-test\\webapplication_teksystem-test\\consoleapp-test-api\\consoleapp-test-api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{34E7B02F-3772-4054-A9A7-E5E69839FF64}|ConsoleApp-Test-API\\ConsoleApp-Test-API.csproj|solutionrelative:consoleapp-test-api\\consoleapp-test-api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BA06366-6E96-4685-BB0D-847450C5DEBB}|WebApplication_TEKsystem-Test-B\\WebApplication_TEKsystem-Test-B.csproj|d:\\root\\calle\\dropbox\\dropbox\\2. ce\\1. ce-repos\\99. teksystems-test\\webapplication_teksystem-test\\webapplication_teksystem-test-b\\controllers\\insurancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BA06366-6E96-4685-BB0D-847450C5DEBB}|WebApplication_TEKsystem-Test-B\\WebApplication_TEKsystem-Test-B.csproj|solutionrelative:webapplication_teksystem-test-b\\controllers\\insurancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDB434C-852D-4ADA-AA0F-DF14E055A531}|ThreadPilot_Costs\\ThreadPilot_Costs.csproj|d:\\root\\calle\\dropbox\\dropbox\\2. ce\\1. ce-repos\\99. teksystems-test\\webapplication_teksystem-test\\threadpilot_costs\\costmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDB434C-852D-4ADA-AA0F-DF14E055A531}|ThreadPilot_Costs\\ThreadPilot_Costs.csproj|solutionrelative:threadpilot_costs\\costmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CAE2453-A540-44AC-B742-7B48D47F9D70}|ThreadPilot_Customers_Database\\ThreadPilot_Customers_Database.csproj|d:\\root\\calle\\dropbox\\dropbox\\2. ce\\1. ce-repos\\99. teksystems-test\\webapplication_teksystem-test\\threadpilot_customers_database\\fakedatabase_customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CAE2453-A540-44AC-B742-7B48D47F9D70}|ThreadPilot_Customers_Database\\ThreadPilot_Customers_Database.csproj|solutionrelative:threadpilot_customers_database\\fakedatabase_customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{977DE69F-E468-440A-805E-47C21A75A858}|ThreadPilot_Databases\\ThreadPilot_Vehicles_Databases.csproj|d:\\root\\calle\\dropbox\\dropbox\\2. ce\\1. ce-repos\\99. teksystems-test\\webapplication_teksystem-test\\threadpilot_databases\\fakedatabase_vehicles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{977DE69F-E468-440A-805E-47C21A75A858}|ThreadPilot_Databases\\ThreadPilot_Vehicles_Databases.csproj|solutionrelative:threadpilot_databases\\fakedatabase_vehicles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B6620A9-665E-497C-95DA-30A818E698D6}|WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test.csproj|d:\\root\\calle\\dropbox\\dropbox\\2. ce\\1. ce-repos\\99. teksystems-test\\webapplication_teksystem-test\\webapplication_teksystem-test\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B6620A9-665E-497C-95DA-30A818E698D6}|WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test.csproj|solutionrelative:webapplication_teksystem-test\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B6620A9-665E-497C-95DA-30A818E698D6}|WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test.csproj|d:\\root\\calle\\dropbox\\dropbox\\2. ce\\1. ce-repos\\99. teksystems-test\\webapplication_teksystem-test\\webapplication_teksystem-test\\webapplication_teksystem-test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9B6620A9-665E-497C-95DA-30A818E698D6}|WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test.csproj|solutionrelative:webapplication_teksystem-test\\webapplication_teksystem-test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 23,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WebApplication_TEKsystem-Test-B",
+              "DocumentMoniker": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test-B\\WebApplication_TEKsystem-Test-B.csproj",
+              "RelativeDocumentMoniker": "WebApplication_TEKsystem-Test-B\\WebApplication_TEKsystem-Test-B.csproj",
+              "ToolTip": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test-B\\WebApplication_TEKsystem-Test-B.csproj",
+              "RelativeToolTip": "WebApplication_TEKsystem-Test-B\\WebApplication_TEKsystem-Test-B.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-16T20:59:58.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebApplication_TEKsystem-Test",
+              "DocumentMoniker": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test.csproj",
+              "RelativeDocumentMoniker": "WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test.csproj",
+              "ToolTip": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test.csproj",
+              "RelativeToolTip": "WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-16T20:59:50.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ThreadPilot_Vehicles_Databases",
+              "DocumentMoniker": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\ThreadPilot_Databases\\ThreadPilot_Vehicles_Databases.csproj",
+              "RelativeDocumentMoniker": "ThreadPilot_Databases\\ThreadPilot_Vehicles_Databases.csproj",
+              "ToolTip": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\ThreadPilot_Databases\\ThreadPilot_Vehicles_Databases.csproj",
+              "RelativeToolTip": "ThreadPilot_Databases\\ThreadPilot_Vehicles_Databases.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-16T20:59:45.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ThreadPilot_DataModels",
+              "DocumentMoniker": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\ThreadPilot_DataModels\\ThreadPilot_DataModels.csproj",
+              "RelativeDocumentMoniker": "ThreadPilot_DataModels\\ThreadPilot_DataModels.csproj",
+              "ToolTip": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\ThreadPilot_DataModels\\ThreadPilot_DataModels.csproj",
+              "RelativeToolTip": "ThreadPilot_DataModels\\ThreadPilot_DataModels.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-16T20:59:39.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ThreadPilot_Customers_Database",
+              "DocumentMoniker": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\ThreadPilot_Customers_Database\\ThreadPilot_Customers_Database.csproj",
+              "RelativeDocumentMoniker": "ThreadPilot_Customers_Database\\ThreadPilot_Customers_Database.csproj",
+              "ToolTip": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\ThreadPilot_Customers_Database\\ThreadPilot_Customers_Database.csproj",
+              "RelativeToolTip": "ThreadPilot_Customers_Database\\ThreadPilot_Customers_Database.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-16T20:59:33.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ThreadPilot_Costs",
+              "DocumentMoniker": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\ThreadPilot_Costs\\ThreadPilot_Costs.csproj",
+              "RelativeDocumentMoniker": "ThreadPilot_Costs\\ThreadPilot_Costs.csproj",
+              "ToolTip": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\ThreadPilot_Costs\\ThreadPilot_Costs.csproj",
+              "RelativeToolTip": "ThreadPilot_Costs\\ThreadPilot_Costs.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-16T20:59:26.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConsoleApp-Test-API",
+              "DocumentMoniker": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\ConsoleApp-Test-API\\ConsoleApp-Test-API.csproj",
+              "RelativeDocumentMoniker": "ConsoleApp-Test-API\\ConsoleApp-Test-API.csproj",
+              "ToolTip": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\ConsoleApp-Test-API\\ConsoleApp-Test-API.csproj",
+              "RelativeToolTip": "ConsoleApp-Test-API\\ConsoleApp-Test-API.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-16T20:59:18.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CostManagement.cs",
+              "DocumentMoniker": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\ThreadPilot_Costs\\CostManagement.cs",
+              "RelativeDocumentMoniker": "ThreadPilot_Costs\\CostManagement.cs",
+              "ToolTip": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\ThreadPilot_Costs\\CostManagement.cs",
+              "RelativeToolTip": "ThreadPilot_Costs\\CostManagement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T20:53:10.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FakeDatabase_Customers.cs",
+              "DocumentMoniker": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\ThreadPilot_Customers_Database\\FakeDatabase_Customers.cs",
+              "RelativeDocumentMoniker": "ThreadPilot_Customers_Database\\FakeDatabase_Customers.cs",
+              "ToolTip": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\ThreadPilot_Customers_Database\\FakeDatabase_Customers.cs",
+              "RelativeToolTip": "ThreadPilot_Customers_Database\\FakeDatabase_Customers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T20:52:26.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InsuranceController.cs",
+              "DocumentMoniker": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test-B\\Controllers\\InsuranceController.cs",
+              "RelativeDocumentMoniker": "WebApplication_TEKsystem-Test-B\\Controllers\\InsuranceController.cs",
+              "ToolTip": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test-B\\Controllers\\InsuranceController.cs",
+              "RelativeToolTip": "WebApplication_TEKsystem-Test-B\\Controllers\\InsuranceController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAlwCcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T20:52:02.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WebApplication_TEKsystem-Test.csproj",
+              "DocumentMoniker": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test.csproj",
+              "RelativeDocumentMoniker": "WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test.csproj",
+              "ToolTip": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test.csproj",
+              "RelativeToolTip": "WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-16T20:50:59.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FakeDatabase_Vehicles.cs",
+              "DocumentMoniker": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\ThreadPilot_Databases\\FakeDatabase_Vehicles.cs",
+              "RelativeDocumentMoniker": "ThreadPilot_Databases\\FakeDatabase_Vehicles.cs",
+              "ToolTip": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\ThreadPilot_Databases\\FakeDatabase_Vehicles.cs",
+              "RelativeToolTip": "ThreadPilot_Databases\\FakeDatabase_Vehicles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T20:51:17.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VehicleController.cs",
+              "DocumentMoniker": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test\\Controllers\\VehicleController.cs",
+              "RelativeDocumentMoniker": "WebApplication_TEKsystem-Test\\Controllers\\VehicleController.cs",
+              "ToolTip": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test\\Controllers\\VehicleController.cs",
+              "RelativeToolTip": "WebApplication_TEKsystem-Test\\Controllers\\VehicleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T20:51:03.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.txt",
+              "DocumentMoniker": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\README.txt",
+              "RelativeDocumentMoniker": "README.txt",
+              "ToolTip": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\README.txt",
+              "RelativeToolTip": "README.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAB7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-07-16T08:48:00.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

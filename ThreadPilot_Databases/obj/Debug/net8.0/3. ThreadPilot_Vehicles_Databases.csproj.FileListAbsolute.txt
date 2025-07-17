@@ -1,0 +1,5 @@
+D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. TEKSYSTEMS-TEST\WebApplication_TEKsystem-Test\ThreadPilot_Databases\obj\Debug\net8.0\3. ThreadPilot_Vehicles_Databases.csproj.AssemblyReference.cache
+D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. TEKSYSTEMS-TEST\WebApplication_TEKsystem-Test\ThreadPilot_Databases\obj\Debug\net8.0\3. ThreadPilot_Vehicles_Databases.GeneratedMSBuildEditorConfig.editorconfig
+D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. TEKSYSTEMS-TEST\WebApplication_TEKsystem-Test\ThreadPilot_Databases\obj\Debug\net8.0\3. ThreadPilot_Vehicles_Databases.AssemblyInfoInputs.cache
+D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. TEKSYSTEMS-TEST\WebApplication_TEKsystem-Test\ThreadPilot_Databases\obj\Debug\net8.0\3. ThreadPilot_Vehicles_Databases.AssemblyInfo.cs
+D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. TEKSYSTEMS-TEST\WebApplication_TEKsystem-Test\ThreadPilot_Databases\obj\Debug\net8.0\3. ThreadPilot_Vehicles_Databases.csproj.CoreCompileInputs.cache

@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "WebApplication_TEKsystem_Test.Controllers.VehicleController",
+    "Method": "GetVehicleByRegistration",
+    "RelativePath": "api/Vehicle/{registrationNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registrationNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

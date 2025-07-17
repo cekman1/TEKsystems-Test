@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>WebApplication_TEKsystem_Test_B</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ThreadPilot_Costs\ThreadPilot_Costs.csproj" />
+    <ProjectReference Include="..\ThreadPilot_Customers_Database\ThreadPilot_Customers_Database.csproj" />
+    <ProjectReference Include="..\ThreadPilot_DataModels\ThreadPilot_DataModels.csproj" />
+  </ItemGroup>
+
+</Project>

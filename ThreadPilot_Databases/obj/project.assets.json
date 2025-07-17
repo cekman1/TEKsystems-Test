@@ -1,0 +1,103 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "ThreadPilot_DataModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ThreadPilot_DataModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ThreadPilot_DataModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ThreadPilot_DataModels/1.0.0": {
+      "type": "project",
+      "path": "../ThreadPilot_DataModels/ThreadPilot_DataModels.csproj",
+      "msbuildProject": "../ThreadPilot_DataModels/ThreadPilot_DataModels.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "ThreadPilot_DataModels >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\CARLEKMAN\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\ThreadPilot_Databases\\ThreadPilot_Vehicles_Databases.csproj",
+      "projectName": "ThreadPilot_Vehicles_Databases",
+      "projectPath": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\ThreadPilot_Databases\\ThreadPilot_Vehicles_Databases.csproj",
+      "packagesPath": "C:\\Users\\CARLEKMAN\\.nuget\\packages\\",
+      "outputPath": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\ThreadPilot_Databases\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\CARLEKMAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\ThreadPilot_DataModels\\ThreadPilot_DataModels.csproj": {
+              "projectPath": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. TEKSYSTEMS-TEST\\WebApplication_TEKsystem-Test\\ThreadPilot_DataModels\\ThreadPilot_DataModels.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

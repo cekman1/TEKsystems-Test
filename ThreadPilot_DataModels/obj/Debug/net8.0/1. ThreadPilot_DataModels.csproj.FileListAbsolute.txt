@@ -1,0 +1,11 @@
+D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. TEKSYSTEMS-TEST\WebApplication_TEKsystem-Test\ThreadPilot_DataModels\bin\Debug\net8.0\1. ThreadPilot_DataModels.deps.json
+D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. TEKSYSTEMS-TEST\WebApplication_TEKsystem-Test\ThreadPilot_DataModels\bin\Debug\net8.0\1. ThreadPilot_DataModels.dll
+D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. TEKSYSTEMS-TEST\WebApplication_TEKsystem-Test\ThreadPilot_DataModels\bin\Debug\net8.0\1. ThreadPilot_DataModels.pdb
+D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. TEKSYSTEMS-TEST\WebApplication_TEKsystem-Test\ThreadPilot_DataModels\obj\Debug\net8.0\1. ThreadPilot_DataModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. TEKSYSTEMS-TEST\WebApplication_TEKsystem-Test\ThreadPilot_DataModels\obj\Debug\net8.0\1. ThreadPilot_DataModels.AssemblyInfoInputs.cache
+D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. TEKSYSTEMS-TEST\WebApplication_TEKsystem-Test\ThreadPilot_DataModels\obj\Debug\net8.0\1. ThreadPilot_DataModels.AssemblyInfo.cs
+D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. TEKSYSTEMS-TEST\WebApplication_TEKsystem-Test\ThreadPilot_DataModels\obj\Debug\net8.0\1. ThreadPilot_DataModels.csproj.CoreCompileInputs.cache
+D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. TEKSYSTEMS-TEST\WebApplication_TEKsystem-Test\ThreadPilot_DataModels\obj\Debug\net8.0\1. ThreadPilot_DataModels.dll
+D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. TEKSYSTEMS-TEST\WebApplication_TEKsystem-Test\ThreadPilot_DataModels\obj\Debug\net8.0\refint\1. ThreadPilot_DataModels.dll
+D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. TEKSYSTEMS-TEST\WebApplication_TEKsystem-Test\ThreadPilot_DataModels\obj\Debug\net8.0\1. ThreadPilot_DataModels.pdb
+D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. TEKSYSTEMS-TEST\WebApplication_TEKsystem-Test\ThreadPilot_DataModels\obj\Debug\net8.0\ref\1. ThreadPilot_DataModels.dll

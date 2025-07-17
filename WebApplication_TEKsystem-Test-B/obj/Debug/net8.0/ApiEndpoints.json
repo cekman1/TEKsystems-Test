@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "WebApplication_TEKsystem_Test_B.Controllers.InsuranceController",
+    "Method": "GetInsurances",
+    "RelativePath": "api/Insurance/{personalNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "personalNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
