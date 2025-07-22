@@ -26,11 +26,11 @@ jobs:
     - name: Build ThreadPilot_Costs
       run: dotnet build ThreadPilot_Costs/ThreadPilot_Costs.csproj --configuration Release
 
-    - name: Build ThreadPilot_Customers_Database
-      run: dotnet build ThreadPilot_Customers_Database/ThreadPilot_Customers_Database.csproj --configuration Release
-
     - name: Build ThreadPilot_Vehicles_Databases
       run: dotnet build ThreadPilot_Vehicles_Databases/ThreadPilot_Vehicles_Databases.csproj --configuration Release
+
+    - name: Build ThreadPilot_Customers_Database
+      run: dotnet build ThreadPilot_Customers_Database/ThreadPilot_Customers_Database.csproj --configuration Release
 
     - name: Build WebApplication_TEKsystem-Test
       run: dotnet build WebApplication_TEKsystem-Test/WebApplication_TEKsystem-Test.csproj --configuration Release
