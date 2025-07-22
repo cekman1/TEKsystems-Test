@@ -41,16 +41,18 @@ jobs:
     - name: Build ConsoleApp-Test-API
       run: dotnet build ConsoleApp-Test-API/ConsoleApp-Test-API.csproj --configuration Release
 
-    # 🚀 Starta båda API:erna i bakgrunden
+    # 🚀 Starta båda API:erna i bakgrunden (via PowerShell)
     - name: Start WebApplication_TEKsystem-Test API
+      shell: pwsh
       run: |
-        start /B dotnet run --project WebApplication_TEKsystem-Test/WebApplication_TEKsystem-Test.csproj --urls "http://localhost:7077"
-        echo "Started WebApplication_TEKsystem-Test API..."
+        Start-Process "dotnet" -ArgumentList "run --project WebApplication_TEKsystem-Test/WebApplication_TEKsystem-Test.csproj --urls http://localhost:7077" -NoNewWindow
+        Write-Host "Started WebApplication_TEKsystem-Test API..."
 
     - name: Start WebApplication_TEKsystem-Test-B API
+      shell: pwsh
       run: |
-        start /B dotnet run --project WebApplication_TEKsystem-Test-B/WebApplication_TEKsystem-Test-B.csproj --urls "http://localhost:7240"
-        echo "Started WebApplication_TEKsystem-Test-B API..."
+        Start-Process "dotnet" -ArgumentList "run --project WebApplication_TEKsystem-Test-B/WebApplication_TEKsystem-Test-B.csproj --urls http://localhost:7240" -NoNewWindow
+        Write-Host "Started WebApplication_TEKsystem-Test-B API..."
 
     # ⏱ Vänta tills båda API:erna svarar
     - name: Wait for APIs to be ready
