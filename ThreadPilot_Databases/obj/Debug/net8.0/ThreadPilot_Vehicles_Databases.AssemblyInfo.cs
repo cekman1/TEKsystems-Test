@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ThreadPilot_Vehicles_Databases")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+812c4fe5d66de990a72761e1ec6929385183ccd6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dbdd655b0388d0cbd17a6261186edb237b18c32f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ThreadPilot_Vehicles_Databases")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ThreadPilot_Vehicles_Databases")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

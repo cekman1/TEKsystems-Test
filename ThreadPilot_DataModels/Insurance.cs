@@ -16,7 +16,7 @@
     {
         public string? Type { get; set; }
         public decimal? MonthlyCost { get; set; }
-        public Vehicle Vehicle { get; set; }
+        public Vehicle? Vehicle { get; set; }
     }
 
 }
