@@ -2,8 +2,8 @@
 {
     public class Person
     {
-        public string PersonalNumber { get; set; }
+        public string? PersonalNumber { get; set; }
         public List<string> Insurances { get; set; }
-        public string VehicleRegistrationNumber { get; set; }
+        public string? VehicleRegistrationNumber { get; set; }
     }
 }

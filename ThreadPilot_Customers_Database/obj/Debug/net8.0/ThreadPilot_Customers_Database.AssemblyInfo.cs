@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ThreadPilot_Customers_Database")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53a2ef3802d51d86817052d62d37accea9e75c50")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f49db9a83251dcd2efd869f66143367e44eb67c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ThreadPilot_Customers_Database")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ThreadPilot_Customers_Database")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
