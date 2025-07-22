@@ -26,6 +26,18 @@
           }
         }
       }
+    },
+    "/health": {
+      "get": {
+        "tags": [
+          "WebApplication_TEKsystem-Test"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": { }
