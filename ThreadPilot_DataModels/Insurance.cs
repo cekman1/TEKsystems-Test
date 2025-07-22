@@ -5,6 +5,11 @@
         public string? PersonalNumber { get; set; }
         public List<InsuranceItem> Insurances { get; set; }
         public decimal? TotalMonthlyCost { get; set; }
+
+        public InsuranceResponse()
+        {
+            Insurances = new List<InsuranceItem>();
+        }
     }
 
     public class InsuranceItem
