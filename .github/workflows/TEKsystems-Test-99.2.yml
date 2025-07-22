@@ -1,0 +1,61 @@
+name: Build and Integration Test - TEKsystem
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-test:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Setup .NET 8 SDK
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 8.0.x
+
+    # 🔧 Bygg delprojekten i rätt ordning
+    - name: Build ThreadPilot_DataModels
+      run: dotnet build ThreadPilot_DataModels/ThreadPilot_DataModels.csproj --configuration Release
+
+    - name: Build ThreadPilot_Costs
+      run: dotnet build ThreadPilot_Costs/ThreadPilot_Costs.csproj --configuration Release
+
+    - name: Build ThreadPilot_Customers_Database
+      run: dotnet build ThreadPilot_Customers_Database/ThreadPilot_Customers_Database.csproj --configuration Release
+
+    - name: Build ThreadPilot_Vehicles_Databases
+      run: dotnet build ThreadPilot_Vehicles_Databases/ThreadPilot_Vehicles_Databases.csproj --configuration Release
+
+    - name: Build WebApplication_TEKsystem-Test
+      run: dotnet build WebApplication_TEKsystem-Test/WebApplication_TEKsystem-Test.csproj --configuration Release
+
+    - name: Build WebApplication_TEKsystem-Test-B
+      run: dotnet build WebApplication_TEKsystem-Test-B/WebApplication_TEKsystem-Test-B.csproj --configuration Release
+
+    - name: Build ConsoleApp-Test-API
+      run: dotnet build ConsoleApp-Test-API/ConsoleApp-Test-API.csproj --configuration Release
+
+    # 🚀 Starta båda API:erna i bakgrunden
+    - name: Start WebApplication_TEKsystem-Test API
+      run: |
+        dotnet run --project WebApplication_TEKsystem-Test/WebApplication_TEKsystem-Test.csproj --urls "http://localhost:7077" &
+        echo "Started WebApplication_TEKsystem-Test API..."
+
+    - name: Start WebApplication_TEKsystem-Test-B API
+      run: |
+        dotnet run --project WebApplication_TEKsystem-Test-B/WebApplication_TEKsystem-Test-B.csproj --urls "http://localhost:7240" &
+        echo "Started WebApplication_TEKsystem-Test-B API..."
+
+    # ⏱ Vänta en stund så att API:erna hinner starta (justera vid behov)
+    - name: Wait for APIs to be ready
+      run: timeout 10
+
+    # 🧪 Kör integrationstester
+    - name: Run ConsoleApp_Test integration tests
+      run: dotnet run --project ConsoleApp-Test-API/ConsoleApp-Test-API.csproj --configuration Release

@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ThreadPilot_Vehicles_Databases/1.0.0": {
+        "dependencies": {
+          "ThreadPilot_DataModels": "1.0.0"
+        },
+        "runtime": {
+          "ThreadPilot_Vehicles_Databases.dll": {}
+        }
+      },
+      "ThreadPilot_DataModels/1.0.0": {
+        "runtime": {
+          "ThreadPilot_DataModels.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ThreadPilot_Vehicles_Databases/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ThreadPilot_DataModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
