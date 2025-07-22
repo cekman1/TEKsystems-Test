@@ -54,7 +54,9 @@ jobs:
 
     # ⏱ Vänta en stund så att API:erna hinner starta (justera vid behov)
     - name: Wait for APIs to be ready
-      run: timeout 10
+      shell: pwsh
+      run: Start-Sleep -Seconds 10
+
 
     # 🧪 Kör integrationstester
     - name: Run ConsoleApp_Test integration tests
