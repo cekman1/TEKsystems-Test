@@ -28,4 +28,8 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+
+// ## health check
+app.MapGet("/health", () => Results.Ok("Healthy"));
+
 app.Run();

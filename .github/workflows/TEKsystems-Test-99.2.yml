@@ -44,20 +44,40 @@ jobs:
     # 🚀 Starta båda API:erna i bakgrunden
     - name: Start WebApplication_TEKsystem-Test API
       run: |
-        dotnet run --project WebApplication_TEKsystem-Test/WebApplication_TEKsystem-Test.csproj --urls "http://localhost:7077" &
+        start /B dotnet run --project WebApplication_TEKsystem-Test/WebApplication_TEKsystem-Test.csproj --urls "http://localhost:7077"
         echo "Started WebApplication_TEKsystem-Test API..."
 
     - name: Start WebApplication_TEKsystem-Test-B API
       run: |
-        dotnet run --project WebApplication_TEKsystem-Test-B/WebApplication_TEKsystem-Test-B.csproj --urls "http://localhost:7240" &
+        start /B dotnet run --project WebApplication_TEKsystem-Test-B/WebApplication_TEKsystem-Test-B.csproj --urls "http://localhost:7240"
         echo "Started WebApplication_TEKsystem-Test-B API..."
 
-    # ⏱ Vänta en stund så att API:erna hinner starta (justera vid behov)
+    # ⏱ Vänta tills båda API:erna svarar
     - name: Wait for APIs to be ready
       shell: pwsh
-      run: Start-Sleep -Seconds 10
+      run: |
+        $urls = @("http://localhost:7077/health", "http://localhost:7240/health")
+        foreach ($url in $urls) {
+          Write-Host "🔄 Väntar på $url..."
+          $success = $false
+          for ($i = 0; $i -lt 20; $i++) {
+            try {
+              $response = Invoke-WebRequest -Uri $url -UseBasicParsing -TimeoutSec 2
+              if ($response.StatusCode -eq 200) {
+                Write-Host "✅ $url är uppe!"
+                $success = $true
+                break
+              }
+            } catch {
+              Write-Host "⏳ $url svarar inte än, försöker igen..."
+              Start-Sleep -Seconds 2
+            }
+          }
+          if (-not $success) {
+            throw "❌ $url svarade inte i tid"
+          }
+        }
 
-
-    # 🧪 Kör integrationstester
+    # 🧪 Kör integrationstester via ConsoleApp
     - name: Run ConsoleApp_Test integration tests
       run: dotnet run --project ConsoleApp-Test-API/ConsoleApp-Test-API.csproj --configuration Release
