@@ -35,11 +35,11 @@ jobs:
       shell: pwsh
       run: |
         # Starta API:erna i bakgrunden
-        $api1 = Start-Job { dotnet run --no-build --project WebApplication_TEKsystem-Test/WebApplication_TEKsystem-Test.csproj --urls http://localhost:7077 }
-        $api2 = Start-Job { dotnet run --no-build --project WebApplication_TEKsystem-Test-B/WebApplication_TEKsystem-Test-B.csproj --urls http://localhost:7240 }
+        $api1 = Start-Job { dotnet run --no-build --project WebApplication_TEKsystem-Test/WebApplication_TEKsystem-Test.csproj --urls https://localhost:7077 }
+        $api2 = Start-Job { dotnet run --no-build --project WebApplication_TEKsystem-Test-B/WebApplication_TEKsystem-Test-B.csproj --urls https://localhost:7240 }
 
         # Vänta på att båda API:erna ska svara på /health
-        $urls = @("http://localhost:7077/health", "http://localhost:7240/health")
+        $urls = @("https://localhost:7077/health", "https://localhost:7240/health")
         foreach ($url in $urls) {
           Write-Host "🔄 Väntar på $url..."
           $success = $false
