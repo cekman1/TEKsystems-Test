@@ -51,7 +51,7 @@ namespace WebApplication_TEKsystem_Test_B.Controllers
                     if (insurance == "Car")
                     {
                         var client = _httpClientFactory.CreateClient();
-                        var vehicleApiUrl = $"https://localhost:7077/api/Vehicle/{person.VehicleRegistrationNumber}";
+                        var vehicleApiUrl = $"http://localhost:7077/api/Vehicle/{person.VehicleRegistrationNumber}";
 
                         try
                         {
