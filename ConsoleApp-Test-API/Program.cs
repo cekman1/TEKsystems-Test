@@ -50,7 +50,7 @@ class Program
         };
 
         var client = new HttpClient();
-        string baseUrl = "https://localhost:7240/api/Insurance";
+        string baseUrl = "http://localhost:7240/api/Insurance";
 
         foreach (var personalNumber in testPersonalNumbers)
         {
@@ -112,7 +112,7 @@ class Program
         };
 
         client = new HttpClient();
-        baseUrl = "https://localhost:7077/api/vehicle";
+        baseUrl = "http://localhost:7077/api/vehicle";
 
         foreach (var reg in testRegistrations)
         {
