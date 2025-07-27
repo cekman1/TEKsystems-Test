@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebApplication_TEKsystem-Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41fc4617447a64f198cf1b1be8b190addf5904c9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efdaca899587bc1578cb88677540f6f7fbdaa9c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebApplication_TEKsystem-Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebApplication_TEKsystem-Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

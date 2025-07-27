@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ConsoleApp-Test-API\\ConsoleApp-Test-API.csproj": {}
+    "C:\\Users\\CARLEKMAN\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ConsoleApp-Test-API\\ConsoleApp-Test-API.csproj": {}
   },
   "projects": {
-    "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ConsoleApp-Test-API\\ConsoleApp-Test-API.csproj": {
+    "C:\\Users\\CARLEKMAN\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ConsoleApp-Test-API\\ConsoleApp-Test-API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ConsoleApp-Test-API\\ConsoleApp-Test-API.csproj",
+        "projectUniqueName": "C:\\Users\\CARLEKMAN\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ConsoleApp-Test-API\\ConsoleApp-Test-API.csproj",
         "projectName": "ConsoleApp-Test-API",
-        "projectPath": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ConsoleApp-Test-API\\ConsoleApp-Test-API.csproj",
+        "projectPath": "C:\\Users\\CARLEKMAN\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ConsoleApp-Test-API\\ConsoleApp-Test-API.csproj",
         "packagesPath": "C:\\Users\\CARLEKMAN\\.nuget\\packages\\",
-        "outputPath": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ConsoleApp-Test-API\\obj\\",
+        "outputPath": "C:\\Users\\CARLEKMAN\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ConsoleApp-Test-API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

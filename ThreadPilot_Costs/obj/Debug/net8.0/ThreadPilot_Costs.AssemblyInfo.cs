@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ThreadPilot_Costs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53a2ef3802d51d86817052d62d37accea9e75c50")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efdaca899587bc1578cb88677540f6f7fbdaa9c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("ThreadPilot_Costs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ThreadPilot_Costs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

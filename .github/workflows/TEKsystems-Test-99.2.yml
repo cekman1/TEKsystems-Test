@@ -20,44 +20,25 @@ jobs:
         dotnet-version: 8.0.x
 
     # 🔧 Bygg delprojekten i rätt ordning
-    - name: Build ThreadPilot_DataModels
-      run: dotnet build ThreadPilot_DataModels/ThreadPilot_DataModels.csproj --configuration Release
+    - name: Build all projects
+      run: |
+        dotnet build ThreadPilot_DataModels/ThreadPilot_DataModels.csproj --configuration Release
+        dotnet build ThreadPilot_Costs/ThreadPilot_Costs.csproj --configuration Release
+        dotnet build ThreadPilot_Databases/ThreadPilot_Vehicles_Databases.csproj --configuration Release
+        dotnet build ThreadPilot_Customers_Database/ThreadPilot_Customers_Database.csproj --configuration Release
+        dotnet build WebApplication_TEKsystem-Test/WebApplication_TEKsystem-Test.csproj --configuration Release
+        dotnet build WebApplication_TEKsystem-Test-B/WebApplication_TEKsystem-Test-B.csproj --configuration Release
+        dotnet build ConsoleApp-Test-API/ConsoleApp-Test-API.csproj --configuration Release
 
-    - name: Build ThreadPilot_Costs
-      run: dotnet build ThreadPilot_Costs/ThreadPilot_Costs.csproj --configuration Release
-
-    - name: Build ThreadPilot_Vehicles_Databases
-      run: dotnet build ThreadPilot_Databases/ThreadPilot_Vehicles_Databases.csproj --configuration Release
-
-    - name: Build ThreadPilot_Customers_Database
-      run: dotnet build ThreadPilot_Customers_Database/ThreadPilot_Customers_Database.csproj --configuration Release
-
-    - name: Build WebApplication_TEKsystem-Test
-      run: dotnet build WebApplication_TEKsystem-Test/WebApplication_TEKsystem-Test.csproj --configuration Release
-
-    - name: Build WebApplication_TEKsystem-Test-B
-      run: dotnet build WebApplication_TEKsystem-Test-B/WebApplication_TEKsystem-Test-B.csproj --configuration Release
-
-    - name: Build ConsoleApp-Test-API
-      run: dotnet build ConsoleApp-Test-API/ConsoleApp-Test-API.csproj --configuration Release
-
-    # 🚀 Starta båda API:erna i bakgrunden (via PowerShell)
-    - name: Start WebApplication_TEKsystem-Test API
+    # 🚀 Starta API:er och kör integrationstester i samma steg
+    - name: Start APIs and run integration tests
       shell: pwsh
       run: |
-        Start-Process "dotnet" -ArgumentList "run --project WebApplication_TEKsystem-Test/WebApplication_TEKsystem-Test.csproj --urls http://localhost:7077" -NoNewWindow
-        Write-Host "Started WebApplication_TEKsystem-Test API..."
+        # Starta API:erna i bakgrunden
+        $api1 = Start-Job { dotnet run --no-build --project WebApplication_TEKsystem-Test/WebApplication_TEKsystem-Test.csproj --urls http://localhost:7077 }
+        $api2 = Start-Job { dotnet run --no-build --project WebApplication_TEKsystem-Test-B/WebApplication_TEKsystem-Test-B.csproj --urls http://localhost:7240 }
 
-    - name: Start WebApplication_TEKsystem-Test-B API
-      shell: pwsh
-      run: |
-        Start-Process "dotnet" -ArgumentList "run --project WebApplication_TEKsystem-Test-B/WebApplication_TEKsystem-Test-B.csproj --urls http://localhost:7240" -NoNewWindow
-        Write-Host "Started WebApplication_TEKsystem-Test-B API..."
-
-    # ⏱ Vänta tills båda API:erna svarar
-    - name: Wait for APIs to be ready
-      shell: pwsh
-      run: |
+        # Vänta på att båda API:erna ska svara på /health
         $urls = @("http://localhost:7077/health", "http://localhost:7240/health")
         foreach ($url in $urls) {
           Write-Host "🔄 Väntar på $url..."
@@ -80,6 +61,11 @@ jobs:
           }
         }
 
-    # 🧪 Kör integrationstester via ConsoleApp
-    - name: Run ConsoleApp_Test integration tests
-      run: dotnet run --project ConsoleApp-Test-API/ConsoleApp-Test-API.csproj --configuration Release
+        # 🧪 Kör integrationstesterna
+        Write-Host "🚀 Startar integrationstester..."
+        dotnet run --no-build --project ConsoleApp-Test-API/ConsoleApp-Test-API.csproj --configuration Release
+
+        # Rensa upp jobb (stäng API-processerna)
+        Write-Host "🧹 Stoppar API-processer..."
+        Stop-Job $api1 -Force
+        Stop-Job $api2 -Force
