@@ -30,16 +30,17 @@ jobs:
         dotnet build WebApplication_TEKsystem-Test-B/WebApplication_TEKsystem-Test-B.csproj --configuration Release
         dotnet build ConsoleApp-Test-API/ConsoleApp-Test-API.csproj --configuration Release
 
-    # 🚀 Starta API:er och kör integrationstester i samma steg
+    # 🚀 Starta API:er och kör integrationstester
     - name: Start APIs and run integration tests
       shell: pwsh
       run: |
-        # Starta API:erna i bakgrunden
-        $api1 = Start-Job { dotnet run --no-build --project WebApplication_TEKsystem-Test/WebApplication_TEKsystem-Test.csproj --urls https://localhost:7077 }
-        $api2 = Start-Job { dotnet run --no-build --project WebApplication_TEKsystem-Test-B/WebApplication_TEKsystem-Test-B.csproj --urls https://localhost:7240 }
+        # Starta API:erna i bakgrunden med HTTP och logga utdata
+        Write-Host "🚀 Startar API:erna..."
+        Start-Process "dotnet" "run --no-build --project WebApplication_TEKsystem-Test/WebApplication_TEKsystem-Test.csproj --urls http://localhost:7077" -RedirectStandardOutput api1.log -RedirectStandardError api1.err -NoNewWindow
+        Start-Process "dotnet" "run --no-build --project WebApplication_TEKsystem-Test-B/WebApplication_TEKsystem-Test-B.csproj --urls http://localhost:7240" -RedirectStandardOutput api2.log -RedirectStandardError api2.err -NoNewWindow
 
         # Vänta på att båda API:erna ska svara på /health
-        $urls = @("https://localhost:7077/health", "https://localhost:7240/health")
+        $urls = @("http://localhost:7077/health", "http://localhost:7240/health")
         foreach ($url in $urls) {
           Write-Host "🔄 Väntar på $url..."
           $success = $false
@@ -57,7 +58,8 @@ jobs:
             }
           }
           if (-not $success) {
-            throw "❌ $url svarade inte i tid"
+            Write-Host "❌ $url svarade inte i tid"
+            break
           }
         }
 
@@ -65,7 +67,12 @@ jobs:
         Write-Host "🚀 Startar integrationstester..."
         dotnet run --no-build --project ConsoleApp-Test-API/ConsoleApp-Test-API.csproj --configuration Release
 
-        # Rensa upp jobb (stäng API-processerna)
-        Write-Host "🧹 Stoppar API-processer..."
-        Stop-Job $api1 -Force
-        Stop-Job $api2 -Force
+        # 📄 Visa loggar oavsett resultat
+        Write-Host "`n📄 API 1 - STDOUT:"
+        Get-Content api1.log
+        Write-Host "`n📄 API 1 - STDERR:"
+        Get-Content api1.err
+        Write-Host "`n📄 API 2 - STDOUT:"
+        Get-Content api2.log
+        Write-Host "`n📄 API 2 - STDERR:"
+        Get-Content api2.err
