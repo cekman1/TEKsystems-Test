@@ -13,22 +13,6 @@ C:\Users\CARLEKMAN\Dropbox\2. CE\1. CE-REPOS\99. TEKSYSTEMS-TEST\WebApplication_
 C:\Users\CARLEKMAN\Dropbox\2. CE\1. CE-REPOS\99. TEKSYSTEMS-TEST\WebApplication_TEKsystem-Test\ThreadPilot_Databases\obj\Debug\net8.0\refint\ThreadPilot_Vehicles_Databases.dll
 C:\Users\CARLEKMAN\Dropbox\2. CE\1. CE-REPOS\99. TEKSYSTEMS-TEST\WebApplication_TEKsystem-Test\ThreadPilot_Databases\obj\Debug\net8.0\ThreadPilot_Vehicles_Databases.pdb
 C:\Users\CARLEKMAN\Dropbox\2. CE\1. CE-REPOS\99. TEKSYSTEMS-TEST\WebApplication_TEKsystem-Test\ThreadPilot_Databases\obj\Debug\net8.0\ref\ThreadPilot_Vehicles_Databases.dll
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\ThreadPilot_Databases\bin\Debug\net8.0\ThreadPilot_Vehicles_Databases.deps.json
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\ThreadPilot_Databases\bin\Debug\net8.0\ThreadPilot_Vehicles_Databases.dll
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\ThreadPilot_Databases\bin\Debug\net8.0\ThreadPilot_Vehicles_Databases.pdb
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\ThreadPilot_Databases\bin\Debug\net8.0\ThreadPilot_DataModels.dll
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\ThreadPilot_Databases\bin\Debug\net8.0\ThreadPilot_DataModels.pdb
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\ThreadPilot_Databases\obj\Debug\net8.0\ThreadPilot_Vehicles_Databases.csproj.AssemblyReference.cache
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\ThreadPilot_Databases\obj\Debug\net8.0\ThreadPilot_Vehicles_Databases.GeneratedMSBuildEditorConfig.editorconfig
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\ThreadPilot_Databases\obj\Debug\net8.0\ThreadPilot_Vehicles_Databases.AssemblyInfoInputs.cache
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\ThreadPilot_Databases\obj\Debug\net8.0\ThreadPilot_Vehicles_Databases.AssemblyInfo.cs
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\ThreadPilot_Databases\obj\Debug\net8.0\ThreadPilot_Vehicles_Databases.csproj.CoreCompileInputs.cache
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\ThreadPilot_Databases\obj\Debug\net8.0\ThreadPilot_Vehicles_Databases.sourcelink.json
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\ThreadPilot_Databases\obj\Debug\net8.0\ThreadPi.72A870B2.Up2Date
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\ThreadPilot_Databases\obj\Debug\net8.0\ThreadPilot_Vehicles_Databases.dll
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\ThreadPilot_Databases\obj\Debug\net8.0\refint\ThreadPilot_Vehicles_Databases.dll
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\ThreadPilot_Databases\obj\Debug\net8.0\ThreadPilot_Vehicles_Databases.pdb
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\ThreadPilot_Databases\obj\Debug\net8.0\ref\ThreadPilot_Vehicles_Databases.dll
 C:\Users\CARLEKMAN\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\ThreadPilot_Databases\bin\Debug\net8.0\ThreadPilot_Vehicles_Databases.deps.json
 C:\Users\CARLEKMAN\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\ThreadPilot_Databases\bin\Debug\net8.0\ThreadPilot_Vehicles_Databases.dll
 C:\Users\CARLEKMAN\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\ThreadPilot_Databases\bin\Debug\net8.0\ThreadPilot_Vehicles_Databases.pdb

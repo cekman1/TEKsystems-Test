@@ -37,46 +37,6 @@ C:\Users\CARLEKMAN\Dropbox\2. CE\1. CE-REPOS\99. TEKSYSTEMS-TEST\WebApplication_
 C:\Users\CARLEKMAN\Dropbox\2. CE\1. CE-REPOS\99. TEKSYSTEMS-TEST\WebApplication_TEKsystem-Test\WebApplication_TEKsystem-Test\obj\Debug\net8.0\WebApplication_TEKsystem-Test.pdb
 C:\Users\CARLEKMAN\Dropbox\2. CE\1. CE-REPOS\99. TEKSYSTEMS-TEST\WebApplication_TEKsystem-Test\WebApplication_TEKsystem-Test\obj\Debug\net8.0\WebApplication_TEKsystem-Test.genruntimeconfig.cache
 C:\Users\CARLEKMAN\Dropbox\2. CE\1. CE-REPOS\99. TEKSYSTEMS-TEST\WebApplication_TEKsystem-Test\WebApplication_TEKsystem-Test\obj\Debug\net8.0\ref\WebApplication_TEKsystem-Test.dll
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\bin\Debug\net8.0\appsettings.Development.json
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\bin\Debug\net8.0\appsettings.json
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\bin\Debug\net8.0\WebApplication_TEKsystem-Test.staticwebassets.endpoints.json
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\bin\Debug\net8.0\WebApplication_TEKsystem-Test.exe
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\bin\Debug\net8.0\WebApplication_TEKsystem-Test.deps.json
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\bin\Debug\net8.0\WebApplication_TEKsystem-Test.runtimeconfig.json
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\bin\Debug\net8.0\WebApplication_TEKsystem-Test.dll
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\bin\Debug\net8.0\WebApplication_TEKsystem-Test.pdb
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\bin\Debug\net8.0\Microsoft.OpenApi.dll
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\bin\Debug\net8.0\ThreadPilot_DataModels.dll
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\bin\Debug\net8.0\ThreadPilot_Vehicles_Databases.dll
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\bin\Debug\net8.0\ThreadPilot_Vehicles_Databases.pdb
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\bin\Debug\net8.0\ThreadPilot_DataModels.pdb
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\obj\Debug\net8.0\WebApplication_TEKsystem-Test.csproj.AssemblyReference.cache
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\obj\Debug\net8.0\rpswa.dswa.cache.json
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\obj\Debug\net8.0\WebApplication_TEKsystem-Test.GeneratedMSBuildEditorConfig.editorconfig
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\obj\Debug\net8.0\WebApplication_TEKsystem-Test.AssemblyInfoInputs.cache
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\obj\Debug\net8.0\WebApplication_TEKsystem-Test.AssemblyInfo.cs
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\obj\Debug\net8.0\WebApplication_TEKsystem-Test.csproj.CoreCompileInputs.cache
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\obj\Debug\net8.0\WebApplication_TEKsystem-Test.MvcApplicationPartsAssemblyInfo.cs
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\obj\Debug\net8.0\WebApplication_TEKsystem-Test.MvcApplicationPartsAssemblyInfo.cache
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\obj\Debug\net8.0\WebApplication_TEKsystem-Test.sourcelink.json
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\obj\Debug\net8.0\rjimswa.dswa.cache.json
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\obj\Debug\net8.0\scopedcss\bundle\WebApplication_TEKsystem-Test.styles.css
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\obj\Debug\net8.0\staticwebassets.build.json
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\obj\Debug\net8.0\staticwebassets.build.json.cache
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\obj\Debug\net8.0\staticwebassets.development.json
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\obj\Debug\net8.0\WebAppli.56C353B3.Up2Date
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\obj\Debug\net8.0\WebApplication_TEKsystem-Test.dll
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\obj\Debug\net8.0\refint\WebApplication_TEKsystem-Test.dll
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\obj\Debug\net8.0\WebApplication_TEKsystem-Test.pdb
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\obj\Debug\net8.0\WebApplication_TEKsystem-Test.genruntimeconfig.cache
-D:\root\calle\Dropbox\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\obj\Debug\net8.0\ref\WebApplication_TEKsystem-Test.dll
 C:\Users\CARLEKMAN\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\CARLEKMAN\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\bin\Debug\net8.0\appsettings.json
 C:\Users\CARLEKMAN\Dropbox\2. CE\1. CE-REPOS\99. 2 TEKsystems\TEKsystems-Test\WebApplication_TEKsystem-Test\bin\Debug\net8.0\WebApplication_TEKsystem-Test.staticwebassets.endpoints.json
