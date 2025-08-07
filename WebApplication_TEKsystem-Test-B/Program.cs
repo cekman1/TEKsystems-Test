@@ -1,4 +1,5 @@
 using ThreadPilot_DataModels;
+using WebApplication_TEKsystem_Test_B;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +19,9 @@ builder.Services.AddSwaggerGen();
 // # add Feature toggles
 builder.Services.Configure<FeatureToggles>(
     builder.Configuration.GetSection("FeatureToggles"));
+
+// # add Configurable endpoint for Vehicle lookups
+builder.Services.Configure<VehicleServiceOptions>(builder.Configuration.GetSection("VehicleService"));
 
 var app = builder.Build();
 

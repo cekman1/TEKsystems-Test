@@ -14,22 +14,24 @@ namespace WebApplication_TEKsystem_Test_B.Controllers
     {
         private readonly IHttpClientFactory _httpClientFactory;
         private readonly FeatureToggles _featureToggles;
+        private readonly VehicleServiceOptions _vehicleServiceOptions;
 
-        public InsuranceController(IHttpClientFactory httpClientFactory, IOptions<FeatureToggles> featureToggles)
+        public InsuranceController(
+            IHttpClientFactory httpClientFactory,
+            IOptions<FeatureToggles> featureToggles,
+            IOptions<VehicleServiceOptions> vehicleServiceOptions)
         {
             _httpClientFactory = httpClientFactory;
             _featureToggles = featureToggles.Value;
+            _vehicleServiceOptions = vehicleServiceOptions.Value;
         }
 
         [HttpGet("{personalNumber}")]
         public async Task<IActionResult> GetInsurances(string personalNumber)
         {
-
             if (_featureToggles.EnableFeaturePersonsLookup)
             {
-                // Kör ny funktionalitet
                 var person = FakeCustomerDatabase.GetByPersonalNumber(personalNumber);
-
                 if (person == null)
                     return NotFound("Person not found.");
 
@@ -51,7 +53,7 @@ namespace WebApplication_TEKsystem_Test_B.Controllers
                     if (insurance == "Car")
                     {
                         var client = _httpClientFactory.CreateClient();
-                        var vehicleApiUrl = $"http://localhost:7077/api/Vehicle/{person.VehicleRegistrationNumber}";
+                        var vehicleApiUrl = $"{_vehicleServiceOptions.BaseUrl}/api/Vehicle/{person.VehicleRegistrationNumber}";
 
                         try
                         {
@@ -72,7 +74,6 @@ namespace WebApplication_TEKsystem_Test_B.Controllers
             }
             else
             {
-                // Kör gammal funktionalitet
                 return StatusCode(501, "Den här funktionen är inte tillgänglig ännu.");
             }
         }

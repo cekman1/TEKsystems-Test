@@ -488,11 +488,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CARLEKMAN\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test.csproj",
+      "projectUniqueName": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test.csproj",
       "projectName": "WebApplication_TEKsystem-Test",
-      "projectPath": "C:\\Users\\CARLEKMAN\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test.csproj",
+      "projectPath": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test.csproj",
       "packagesPath": "C:\\Users\\CARLEKMAN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CARLEKMAN\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\WebApplication_TEKsystem-Test\\obj\\",
+      "outputPath": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\WebApplication_TEKsystem-Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -514,11 +514,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\CARLEKMAN\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ThreadPilot_Databases\\ThreadPilot_Vehicles_Databases.csproj": {
-              "projectPath": "C:\\Users\\CARLEKMAN\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ThreadPilot_Databases\\ThreadPilot_Vehicles_Databases.csproj"
+            "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ThreadPilot_Databases\\ThreadPilot_Vehicles_Databases.csproj": {
+              "projectPath": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ThreadPilot_Databases\\ThreadPilot_Vehicles_Databases.csproj"
             },
-            "C:\\Users\\CARLEKMAN\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ThreadPilot_DataModels\\ThreadPilot_DataModels.csproj": {
-              "projectPath": "C:\\Users\\CARLEKMAN\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ThreadPilot_DataModels\\ThreadPilot_DataModels.csproj"
+            "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ThreadPilot_DataModels\\ThreadPilot_DataModels.csproj": {
+              "projectPath": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ThreadPilot_DataModels\\ThreadPilot_DataModels.csproj"
             }
           }
         }
@@ -563,7 +563,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
