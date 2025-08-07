@@ -1,16 +1,11 @@
 ﻿using System.Net.Http.Json;
-using System;
-using System.Collections.Generic;
-using System.Net.Http;
-using System.Net.Http.Json;
-using System.Threading.Tasks;
 
 // DTOs matching API responses
 public class Vehicle
 {
-    public string RegistrationNumber { get; set; }
-    public string Make { get; set; }
-    public string Model { get; set; }
+    public required string RegistrationNumber { get; set; }
+    public required string Make { get; set; }
+    public required string Model { get; set; }
     public int Year { get; set; }
 }
 
@@ -64,17 +59,35 @@ class Program
                 {
                     var insuranceResponse = await response.Content.ReadFromJsonAsync<InsuranceResponse>();
 
-                    Console.WriteLine($"✅ PersonalNumber: {insuranceResponse.PersonalNumber}");
-                    Console.WriteLine($"   Total Monthly Cost: {insuranceResponse.TotalMonthlyCost} SEK");
-
-                    foreach (var item in insuranceResponse.Insurances)
+                    if (insuranceResponse != null)
                     {
-                        Console.WriteLine($"   - Type: {item.Type}, Cost: {item.MonthlyCost} SEK");
+                        Console.WriteLine($"✅ PersonalNumber: {insuranceResponse.PersonalNumber}");
+                        Console.WriteLine($"   Total Monthly Cost: {insuranceResponse.TotalMonthlyCost} SEK");
 
-                        if (item.Vehicle != null)
+                        if (insuranceResponse.Insurances != null)
                         {
-                            Console.WriteLine($"     🚗 Vehicle: {item.Vehicle.Make} {item.Vehicle.Model} ({item.Vehicle.RegistrationNumber}, {item.Vehicle.Year})");
+                            foreach (var item in insuranceResponse.Insurances)
+                            {
+                                Console.WriteLine($"   - Type: {item.Type}, Cost: {item.MonthlyCost} SEK");
+
+                                if (item.Vehicle != null)
+                                {
+                                    Console.WriteLine($"     🚗 Vehicle: {item.Vehicle.Make} {item.Vehicle.Model} ({item.Vehicle.RegistrationNumber}, {item.Vehicle.Year})");
+                                }
+                                else
+                                {
+                                    Console.WriteLine("     ⚠️ No vehicle information.");
+                                }
+                            }
                         }
+                        else
+                        {
+                            Console.WriteLine("⚠️ No insurance items returned.");
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("⚠️ InsuranceResponse deserialization returned null.");
                     }
                 }
                 else
@@ -125,10 +138,17 @@ class Program
                 if (response.IsSuccessStatusCode)
                 {
                     var vehicle = await response.Content.ReadFromJsonAsync<Vehicle>();
-                    Console.WriteLine($"✅ Found Vehicle:");
-                    Console.WriteLine($"   Reg: {vehicle.RegistrationNumber}");
-                    Console.WriteLine($"   Make/Model: {vehicle.Make} {vehicle.Model}");
-                    Console.WriteLine($"   Year: {vehicle.Year}");
+                    if (vehicle != null)
+                    {
+                        Console.WriteLine($"✅ Found Vehicle:");
+                        Console.WriteLine($"   Reg: {vehicle.RegistrationNumber}");
+                        Console.WriteLine($"   Make/Model: {vehicle.Make} {vehicle.Model}");
+                        Console.WriteLine($"   Year: {vehicle.Year}");
+                    }
+                    else
+                    {
+                        Console.WriteLine("⚠️ Vehicle deserialization returned null.");
+                    }
                 }
                 else
                 {

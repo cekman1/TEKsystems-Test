@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{34E7B02F-3772-4054-A9A7-E5E69839FF64}|ConsoleApp-Test-API\\ConsoleApp-Test-API.csproj|d:\\root\\calle\\dropbox\\dropbox\\2. ce\\1. ce-repos\\99. 2 teksystems\\teksystems-test\\consoleapp-test-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34E7B02F-3772-4054-A9A7-E5E69839FF64}|ConsoleApp-Test-API\\ConsoleApp-Test-API.csproj|solutionrelative:consoleapp-test-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7BA06366-6E96-4685-BB0D-847450C5DEBB}|WebApplication_TEKsystem-Test-B\\WebApplication_TEKsystem-Test-B.csproj|d:\\root\\calle\\dropbox\\dropbox\\2. ce\\1. ce-repos\\99. 2 teksystems\\teksystems-test\\webapplication_teksystem-test-b\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BA06366-6E96-4685-BB0D-847450C5DEBB}|WebApplication_TEKsystem-Test-B\\WebApplication_TEKsystem-Test-B.csproj|solutionrelative:webapplication_teksystem-test-b\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -78,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 23,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -122,7 +126,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ConsoleApp-Test-API\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp-Test-API\\Program.cs",
+              "ToolTip": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ConsoleApp-Test-API\\Program.cs",
+              "RelativeToolTip": "ConsoleApp-Test-API\\Program.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAqwFoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T09:44:10.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "VehicleServiceOptions.cs",
               "DocumentMoniker": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\WebApplication_TEKsystem-Test-B\\VehicleServiceOptions.cs",
               "RelativeDocumentMoniker": "WebApplication_TEKsystem-Test-B\\VehicleServiceOptions.cs",
@@ -134,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\WebApplication_TEKsystem-Test\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "WebApplication_TEKsystem-Test\\Properties\\launchSettings.json",
@@ -146,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\WebApplication_TEKsystem-Test-B\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "WebApplication_TEKsystem-Test-B\\Properties\\launchSettings.json",
@@ -158,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "TEKsystems-Test-99.2.yml",
               "DocumentMoniker": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\.github\\workflows\\TEKsystems-Test-99.2.yml",
               "RelativeDocumentMoniker": ".github\\workflows\\TEKsystems-Test-99.2.yml",
@@ -170,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Person.cs",
               "DocumentMoniker": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ThreadPilot_DataModels\\Person.cs",
               "RelativeDocumentMoniker": "ThreadPilot_DataModels\\Person.cs",
@@ -182,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Vehicle.cs",
               "DocumentMoniker": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ThreadPilot_DataModels\\Vehicle.cs",
               "RelativeDocumentMoniker": "ThreadPilot_DataModels\\Vehicle.cs",
@@ -194,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "README.txt",
               "DocumentMoniker": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\README.txt",
               "RelativeDocumentMoniker": "README.txt",
@@ -206,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "InsuranceController.cs",
               "DocumentMoniker": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\WebApplication_TEKsystem-Test-B\\Controllers\\InsuranceController.cs",
               "RelativeDocumentMoniker": "WebApplication_TEKsystem-Test-B\\Controllers\\InsuranceController.cs",
@@ -218,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\WebApplication_TEKsystem-Test-B\\appsettings.json",
               "RelativeDocumentMoniker": "WebApplication_TEKsystem-Test-B\\appsettings.json",
@@ -230,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "VehicleController.cs",
               "DocumentMoniker": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\WebApplication_TEKsystem-Test\\Controllers\\VehicleController.cs",
               "RelativeDocumentMoniker": "WebApplication_TEKsystem-Test\\Controllers\\VehicleController.cs",
@@ -242,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\WebApplication_TEKsystem-Test\\appsettings.json",
               "RelativeDocumentMoniker": "WebApplication_TEKsystem-Test\\appsettings.json",
@@ -254,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Insurance.cs",
               "DocumentMoniker": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ThreadPilot_DataModels\\Insurance.cs",
               "RelativeDocumentMoniker": "ThreadPilot_DataModels\\Insurance.cs",
@@ -266,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "WebApplication_TEKsystem-Test.csproj",
               "DocumentMoniker": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test.csproj",
               "RelativeDocumentMoniker": "WebApplication_TEKsystem-Test\\WebApplication_TEKsystem-Test.csproj",
@@ -278,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\WebApplication_TEKsystem-Test-B\\Program.cs",
               "RelativeDocumentMoniker": "WebApplication_TEKsystem-Test-B\\Program.cs",
@@ -291,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\WebApplication_TEKsystem-Test\\Program.cs",
               "RelativeDocumentMoniker": "WebApplication_TEKsystem-Test\\Program.cs",
@@ -303,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "FakeDatabase_Vehicles.cs",
               "DocumentMoniker": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ThreadPilot_Databases\\FakeDatabase_Vehicles.cs",
               "RelativeDocumentMoniker": "ThreadPilot_Databases\\FakeDatabase_Vehicles.cs",
@@ -315,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "FeatureToggles.cs",
               "DocumentMoniker": "D:\\root\\calle\\Dropbox\\Dropbox\\2. CE\\1. CE-REPOS\\99. 2 TEKsystems\\TEKsystems-Test\\ThreadPilot_DataModels\\FeatureToggles.cs",
               "RelativeDocumentMoniker": "ThreadPilot_DataModels\\FeatureToggles.cs",
